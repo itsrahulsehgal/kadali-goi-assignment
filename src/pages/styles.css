@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.left-container,
+.right-container {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.gradient-button {
+    background: url('https://kadali.my.canva.site/99wala/images/1af2b3042aefb4cfc648ce359d183a08.svg') no-repeat;
+    background-size: cover; 
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 190px;
+    height: 60px;
+}
+
+
+.main-image {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed for your design */
+    height: auto;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.background-gradient {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.right-container {
+    position: relative;
+    flex: 1;
+    max-width: 30%;
+    height: 550px;
+    width: 100%;
+    max-width: 570px;
+    min-width: 300px;
+    background: url('https://kadali.my.canva.site/99wala/images/9ac4a8cfa8e842e424850744554ad1b5.svg') center/cover no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-image {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1150px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-container,
+    .right-container {
+        /* width: 100%; */
+        /* max-width: none; */
+        text-align: center;
+        margin-top: 20px; /* Add spacing between left and right containers */
+        background: none;
+
+    }
+}

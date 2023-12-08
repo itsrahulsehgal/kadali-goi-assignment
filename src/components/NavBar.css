@@ -1,0 +1,136 @@
+/* Font-face for PorterFT font */
+@font-face {
+    font-family: 'PorterFT';
+    src: url('../../public/assets/fonts/PorterFT/PorterFT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'FairyFine';
+    src: url('../../public/assets/fonts/FairyFine/Fairyfine.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* General navbar styles */
+  .navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Company info styles */
+  .company-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo styles */
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+  }
+  
+  /* Company container styles */
+  .company-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Company name styles */
+  .company-name {
+    font-family: 'FairyFine';
+    color: white;
+    font-size: 50px;
+  }
+  
+  /* Company tagline styles */
+  .company-tagline {
+    color: white;
+    font-family: 'PorterFT';
+  }
+  
+  /* Navigation links styles */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'PorterFT';
+  }
+  
+  /* Individual nav link styles */
+  .nav-links li {
+    margin-left: 10px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+/* Toggle button styles */
+.toggle-button {
+    display: none; /* Initially hide the button */
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .rotate-down {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .rotate-up {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 991px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .toggle-button {
+      display: block;
+    }
+  
+    .show {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 100px;
+      right: 0;
+      width: 50%;
+      padding: 20px; /* Increase padding for better glassmorphic effect */
+      background-color: rgba(122, 122, 122, 0.7); /* Adjust the color and transparency */
+      backdrop-filter: blur(1px); /* Apply background blur */
+      z-index: 1; /* Ensure it's above the navbar */
+    }
+  
+    .show li {
+      margin: 10px 0;
+      color: white; /* Adjust text color for better contrast */
+    }
+  
+    .navbar {
+      position: relative;
+    }
+  }

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Porter FT';
+    src: url('PorterFT-Bold.eot');
+    src: local('Porter FT Bold'), local('PorterFT-Bold'),
+        url('PorterFT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PorterFT-Bold.woff2') format('woff2'),
+        url('PorterFT-Bold.woff') format('woff'),
+        url('PorterFT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porter FT Round';
+    src: url('PorterFTRound-Regular.eot');
+    src: local('Porter FT Round Regular'), local('PorterFTRound-Regular'),
+        url('PorterFTRound-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PorterFTRound-Regular.woff2') format('woff2'),
+        url('PorterFTRound-Regular.woff') format('woff'),
+        url('PorterFTRound-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porter FT Round';
+    src: url('PorterFTRound-Light.eot');
+    src: local('Porter FT Round Light'), local('PorterFTRound-Light'),
+        url('PorterFTRound-Light.eot?#iefix') format('embedded-opentype'),
+        url('PorterFTRound-Light.woff2') format('woff2'),
+        url('PorterFTRound-Light.woff') format('woff'),
+        url('PorterFTRound-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porter FT';
+    src: url('PorterFT-SemiBold.eot');
+    src: local('Porter FT SemiBold'), local('PorterFT-SemiBold'),
+        url('PorterFT-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PorterFT-SemiBold.woff2') format('woff2'),
+        url('PorterFT-SemiBold.woff') format('woff'),
+        url('PorterFT-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porter FT';
+    src: url('PorterFT-Light.eot');
+    src: local('Porter FT Light'), local('PorterFT-Light'),
+        url('PorterFT-Light.eot?#iefix') format('embedded-opentype'),
+        url('PorterFT-Light.woff2') format('woff2'),
+        url('PorterFT-Light.woff') format('woff'),
+        url('PorterFT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porter FT Round';
+    src: url('PorterFTRound-Bold.eot');
+    src: local('Porter FT Round Bold'), local('PorterFTRound-Bold'),
+        url('PorterFTRound-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PorterFTRound-Bold.woff2') format('woff2'),
+        url('PorterFTRound-Bold.woff') format('woff'),
+        url('PorterFTRound-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porter FT';
+    src: url('PorterFT-Regular.eot');
+    src: local('Porter FT Regular'), local('PorterFT-Regular'),
+        url('PorterFT-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PorterFT-Regular.woff2') format('woff2'),
+        url('PorterFT-Regular.woff') format('woff'),
+        url('PorterFT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porter FT Round';
+    src: url('PorterFTRound-SemiBold.eot');
+    src: local('Porter FT Round SemiBold'), local('PorterFTRound-SemiBold'),
+        url('PorterFTRound-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PorterFTRound-SemiBold.woff2') format('woff2'),
+        url('PorterFTRound-SemiBold.woff') format('woff'),
+        url('PorterFTRound-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
